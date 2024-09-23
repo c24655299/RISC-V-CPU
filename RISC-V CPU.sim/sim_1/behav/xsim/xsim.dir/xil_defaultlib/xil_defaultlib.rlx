@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/vivado/RISC-V CPU/RISC-V CPU.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sim_1/new/tb_top_mod.v,1726822329,verilog,,,,tb_top_mod,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/control.v,1727078870,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/execution.v,,control,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/execution.v,1726638441,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/imm_gen.v,,execution,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/imm_gen.v,1726826511,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/instruction_decode.v,,imm_gen,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/instruction_decode.v,1727081254,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/instruction_fetch.v,,instruction_decode,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/instruction_fetch.v,1726822302,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/instruction_mem.v,,instruction_fetch,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/instruction_mem.v,1726820070,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/memory_access.v,,instruction_mem,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/memory_access.v,1727081743,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/register_file.v,,memory_access,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/register_file.v,1726827067,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/top_mod.v,,register_file,,,,,,,,
+C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sources_1/new/top_mod.v,1727081539,verilog,,C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sim_1/new/tb_top_mod.v,,top_mod,,,,,,,,

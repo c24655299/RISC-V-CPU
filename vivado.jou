@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Sep  6 10:52:02 2024
+# Process ID: 656
+# Current directory: C:/vivado/RISC-V CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10188 C:\vivado\RISC-V CPU\RISC-V CPU.xpr
+# Log file: C:/vivado/RISC-V CPU/vivado.log
+# Journal file: C:/vivado/RISC-V CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/vivado/RISC-V CPU/RISC-V CPU.xpr}
+update_compile_order -fileset sources_1

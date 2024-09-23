@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_mod_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_mod" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="28563fs"></ZoomStartTime>
+      <ZoomEndTime time="138664fs"></ZoomEndTime>
+      <Cursor1Time time="95000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="335"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="122" />
+   <wvobject fp_name="/tb_top_mod/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/ins" type="array">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/alu1" type="array">
+      <obj_property name="ElementShortName">alu1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/alu2" type="array">
+      <obj_property name="ElementShortName">alu2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu2[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/alu_opt" type="array">
+      <obj_property name="ElementShortName">alu_opt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_opt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/write_dataM" type="array">
+      <obj_property name="ElementShortName">write_dataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_dataM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/write_datareg" type="array">
+      <obj_property name="ElementShortName">write_datareg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_datareg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/jalr" type="logic">
+      <obj_property name="ElementShortName">jalr</obj_property>
+      <obj_property name="ObjectShortName">jalr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/write_PC4" type="logic">
+      <obj_property name="ElementShortName">write_PC4</obj_property>
+      <obj_property name="ObjectShortName">write_PC4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/mem2reg" type="logic">
+      <obj_property name="ElementShortName">mem2reg</obj_property>
+      <obj_property name="ObjectShortName">mem2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/memread" type="logic">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider38">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/alu_opt" type="array">
+      <obj_property name="ElementShortName">alu_opt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_opt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/jalr" type="logic">
+      <obj_property name="ElementShortName">jalr</obj_property>
+      <obj_property name="ObjectShortName">jalr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/write_PC4" type="logic">
+      <obj_property name="ElementShortName">write_PC4</obj_property>
+      <obj_property name="ObjectShortName">write_PC4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/mem2reg" type="logic">
+      <obj_property name="ElementShortName">mem2reg</obj_property>
+      <obj_property name="ObjectShortName">mem2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/memread" type="logic">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/data_type_reg" type="array">
+      <obj_property name="ElementShortName">data_type_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_type_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/data_type" type="logic">
+      <obj_property name="ElementShortName">data_type</obj_property>
+      <obj_property name="ObjectShortName">data_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/R_TYPE" type="array">
+      <obj_property name="ElementShortName">R_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/I_TYPE" type="array">
+      <obj_property name="ElementShortName">I_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">I_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/S_TYPE" type="array">
+      <obj_property name="ElementShortName">S_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/B_TYPE" type="array">
+      <obj_property name="ElementShortName">B_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">B_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/JUMP" type="array">
+      <obj_property name="ElementShortName">JUMP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">JUMP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/UNKNOWN_TYPE" type="array">
+      <obj_property name="ElementShortName">UNKNOWN_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">UNKNOWN_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider63">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/write_datareg" type="array">
+      <obj_property name="ElementShortName">write_datareg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_datareg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/write_datapc" type="array">
+      <obj_property name="ElementShortName">write_datapc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_datapc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/write_PC4" type="logic">
+      <obj_property name="ElementShortName">write_PC4</obj_property>
+      <obj_property name="ObjectShortName">write_PC4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/data_a" type="array">
+      <obj_property name="ElementShortName">data_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/data_b" type="array">
+      <obj_property name="ElementShortName">data_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/write_dataM" type="array">
+      <obj_property name="ElementShortName">write_dataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_dataM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/read_data_a" type="array">
+      <obj_property name="ElementShortName">read_data_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/read_data_b" type="array">
+      <obj_property name="ElementShortName">read_data_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/imm_out" type="array">
+      <obj_property name="ElementShortName">imm_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/imm_in" type="array">
+      <obj_property name="ElementShortName">imm_in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/imm_I" type="array">
+      <obj_property name="ElementShortName">imm_I[11:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_I[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/imm_S" type="array">
+      <obj_property name="ElementShortName">imm_S[11:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_S[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/imm_B" type="array">
+      <obj_property name="ElementShortName">imm_B[11:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_B[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider86">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u2/alu1" type="array">
+      <obj_property name="ElementShortName">alu1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u2/alu2" type="array">
+      <obj_property name="ElementShortName">alu2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u2/alu_opt" type="array">
+      <obj_property name="ElementShortName">alu_opt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_opt[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u2/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u2/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u2/alu_temp" type="array">
+      <obj_property name="ElementShortName">alu_temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_temp[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider93">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/data_address" type="array">
+      <obj_property name="ElementShortName">data_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_address[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/mem2reg" type="logic">
+      <obj_property name="ElementShortName">mem2reg</obj_property>
+      <obj_property name="ObjectShortName">mem2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/memread" type="logic">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u3/data_memory" type="array">
+      <obj_property name="ElementShortName">data_memory[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider103">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/alu_opt" type="array">
+      <obj_property name="ElementShortName">alu_opt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_opt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/jalr" type="logic">
+      <obj_property name="ElementShortName">jalr</obj_property>
+      <obj_property name="ObjectShortName">jalr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/write_PC4" type="logic">
+      <obj_property name="ElementShortName">write_PC4</obj_property>
+      <obj_property name="ObjectShortName">write_PC4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/mem2reg" type="logic">
+      <obj_property name="ElementShortName">mem2reg</obj_property>
+      <obj_property name="ObjectShortName">mem2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/memread" type="logic">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/data_type_reg" type="array">
+      <obj_property name="ElementShortName">data_type_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_type_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/data_type" type="logic">
+      <obj_property name="ElementShortName">data_type</obj_property>
+      <obj_property name="ObjectShortName">data_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/R_TYPE" type="array">
+      <obj_property name="ElementShortName">R_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/I_TYPE" type="array">
+      <obj_property name="ElementShortName">I_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">I_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/S_TYPE" type="array">
+      <obj_property name="ElementShortName">S_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/B_TYPE" type="array">
+      <obj_property name="ElementShortName">B_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">B_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/JUMP" type="array">
+      <obj_property name="ElementShortName">JUMP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">JUMP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u4/UNKNOWN_TYPE" type="array">
+      <obj_property name="ElementShortName">UNKNOWN_TYPE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">UNKNOWN_TYPE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider111">
+      <obj_property name="label">regfile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/read_addr1" type="array">
+      <obj_property name="ElementShortName">read_addr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/read_addr2" type="array">
+      <obj_property name="ElementShortName">read_addr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mod/uut/u1/u0/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

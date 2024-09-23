@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+PC = 0xxxxxxxxx, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000000, Instruction = 00000000101000000000000010010011
+PC = 0x00000004, Instruction = 00000001100100000000000100010011
+PC = 0x00000008, Instruction = 00000011001000000000000110010011
+PC = 0x0000000c, Instruction = 00000000001000001000001000110011
+PC = 0x00000010, Instruction = 01000000000100010000001010110011
+PC = 0x00000014, Instruction = 00000000001000001111001100110011
+PC = 0x00000018, Instruction = 00000000001000001110001110110011
+PC = 0x0000001c, Instruction = 00000000010100000010000000100011
+PC = 0x00000020, Instruction = 00000000011000000010001000100011
+PC = 0x00000024, Instruction = 00000000010000000010010000100011
+PC = 0x00000028, Instruction = 00000000100000000010001110000011
+PC = 0x0000002c, Instruction = 11111110000111111111000011101111
+Error: UNKNOWN_TYPE detected for data_type_reg = 111
+PC = 0x00000030, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000034, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000038, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x0000003c, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000040, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000044, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000048, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x0000004c, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC = 0x00000050, Instruction = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+$finish called at time : 202 ns : File "C:/vivado/RISC-V CPU/RISC-V CPU.srcs/sim_1/new/tb_top_mod.v" Line 28
